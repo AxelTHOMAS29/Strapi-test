@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personnages",
+  "info": {
+    "singularName": "personnage",
+    "pluralName": "personnages",
+    "displayName": "personnages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
