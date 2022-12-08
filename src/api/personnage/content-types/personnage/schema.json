@@ -4,7 +4,8 @@
   "info": {
     "singularName": "personnage",
     "pluralName": "personnages",
-    "displayName": "personnages"
+    "displayName": "personnages",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,15 +18,19 @@
     "Description": {
       "type": "richtext"
     },
-    "Image": {
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "age": {
+      "type": "integer"
     }
   }
 }
